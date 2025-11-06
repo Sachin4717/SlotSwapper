@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "D:\\Projects\\SlotSwapper\\backend\\venv\\Scripts\\python.exe",
+  "python.pythonPath": "D:\\Projects\\SlotSwapper\\backend\\venv\\Scripts\\python.exe",
+  "python.analysis.extraPaths": [
+    "./backend"
+  ]
+}
