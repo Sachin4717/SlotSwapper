@@ -1,10 +1,11 @@
 import axios from 'axios'
 import { showToast } from '../utils/toast'
 
-const api = axios.create({
-  baseURL: 'http://127.0.0.1:5000/api',
-  timeout: 5000,
-})
+// frontend/src/api/axios.js
+const API = axios.create({
+  baseURL: "https://slotswapper-backend.onrender.com"
+});
+
 
 // Attach token if present in localStorage
 api.interceptors.request.use((config) => {
